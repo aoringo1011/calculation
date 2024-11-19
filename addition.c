@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, num3, num4, sum;
+    int num1, num2, num3, num4, num5, sum;
 
     // ユーザーに入力を促す
     printf("1つ目の数字を入力してください: ");
@@ -16,8 +16,11 @@ int main() {
     printf("4つ目の数字を入力してください: ");
     scanf("%d", &num4);
 
+    printf("5つ目の数字を入力してください: ");
+    scanf("%d", &num5);
+
     // 足し算を計算
-    sum = num1 + num2 + num3+ num4;
+    sum = num1 + num2 + num3 + num4 + num5;
 
     // 結果を表示
     printf("合計は %d です。\n", sum);
